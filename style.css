@@ -1,7 +1,6 @@
 body{
     display : flex;
     background-color: hsl(233, 47%, 7%);
-    overflow:hidden;
 }
 
 div.outline
