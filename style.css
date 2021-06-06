@@ -1,19 +1,25 @@
-body{
-    display : flex;
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
     background-color: hsl(233, 47%, 7%);
 }
 
-div.outline
+.outline
 {
-    height:auto;
-    width:1440px;
-    display: static inline-block;
+    width: 80%;
+    display: flex;
     border-radius: 10px;
     border: 1px solid hsl(233, 47%, 7%);
-    margin: 95px 110px;
+    margin: 95px auto;
 }
 
-div.card
+.card
 {
     display:block;
     border-top-left-radius: inherit;
@@ -27,9 +33,9 @@ div.card
     overflow: hidden;
 }
 
-div.img
+.img
 {
-    display: flexbox;
+    display: block;
     float: right;
     background-color: hsl(277, 64%, 61%);
     object-fit:cover;
@@ -51,7 +57,7 @@ li
     font-family: 'Lexend Deca', sans-serif;
 }
 
-div.word
+.word
 {
     font-size: 13px;
     font-family: 'Lexend Deca', sans-serif;
@@ -60,7 +66,7 @@ div.word
     padding-top: 0.5em;
 }
 
-top-head
+h2
 {
     display: inline-block;
     font-size: 37;
@@ -80,6 +86,5 @@ p.statement
 img
 {
     mix-blend-mode:multiply;
-    opacity: 0.7;
-    
+    opacity: 0.7;   
 }
