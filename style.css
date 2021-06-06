@@ -54,6 +54,8 @@ body
     opacity: 0.6;
     top: 0;
     left: 0;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
 }
 
 ul
